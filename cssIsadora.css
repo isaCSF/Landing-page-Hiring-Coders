@@ -68,3 +68,9 @@ img {
 .textoformulario{
     color: rgb(29, 28, 28)
 }
+.rodape{
+    display: flex;
+    justify-content: center;
+    color: rgb(29, 28, 28);
+    font-size: 15px;
+}
