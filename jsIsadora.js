@@ -32,7 +32,7 @@ form.addEventListener("submit", (e) => {
             if (count>0){
                 timeout();
             } else {
-                window.location.href = ""
+                window.location.href = "https://xenodochial-panini-447f19.netlify.app/"
             }
         }, 1000);
     }
