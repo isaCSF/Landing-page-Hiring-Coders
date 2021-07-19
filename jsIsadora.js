@@ -17,8 +17,8 @@ form.addEventListener("submit", (e) => {
     const arrayName = nome.split(" ");
 
     content.innerHTML = `
-        <p>Muito obrigado ${arrayName[0]}, seu email foi registrado com sucesso.</p>
-        <p>Você será redirecionado para nossa loja virtual em <span id="tempo">10</span> segundos.</p>
+        <p>Muito obrigado ${arrayName[0]}, Obrigada!.</p>
+        <p>Você será redirecionado para o ínicio da página em <span id="tempo">10</span> segundos.</p>
     `;
 
     let tempo = document.getElementById("tempo");
