@@ -17,7 +17,7 @@ form.addEventListener("submit", (e) => {
     const arrayName = nome.split(" ");
 
     content.innerHTML = `
-        <p>Muito obrigado ${arrayName[0]}, espero vê-lo(a) novamente.</p>
+        <p>Muito obrigada ${arrayName[0]}, espero vê-lo(a) novamente.</p>
         <p>Você será redirecionado para o ínicio da página em <span id="tempo">10</span> segundos.</p>
     `;
 
